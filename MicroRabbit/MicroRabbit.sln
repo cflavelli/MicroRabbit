@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{97401698-9101-4E50-8E60-D90D361BA85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{C2DF6351-BDD6-4D07-831C-BC3A877F6C30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{C2DF6351-BDD6-4D07-831C-BC3A877F6C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{76D389BC-DC2E-4FD8-ABED-8F74AAB6B5E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{C2DF6351-BDD6-4D07-831C-BC3A877F6C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DF6351-BDD6-4D07-831C-BC3A877F6C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DF6351-BDD6-4D07-831C-BC3A877F6C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D389BC-DC2E-4FD8-ABED-8F74AAB6B5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D389BC-DC2E-4FD8-ABED-8F74AAB6B5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D389BC-DC2E-4FD8-ABED-8F74AAB6B5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D389BC-DC2E-4FD8-ABED-8F74AAB6B5E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{97401698-9101-4E50-8E60-D90D361BA85C} = {D6377B47-2A4F-4967-8A6C-184839CBC2C5}
 		{C2DF6351-BDD6-4D07-831C-BC3A877F6C30} = {23CB7535-6E57-4D15-9097-7C7D59E8ED8B}
+		{76D389BC-DC2E-4FD8-ABED-8F74AAB6B5E3} = {AC0D0C5D-2DEA-41DB-BE04-C26CFFAA0B51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B72207C-0218-4750-B9F4-C90CF7EFCE86}
